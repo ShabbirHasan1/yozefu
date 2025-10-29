@@ -1,4 +1,112 @@
 ## What's Changed in 0.0.17
+* chore: Update changelog by @github-actions[bot]
+* chore: Release version v0.0.17 by @Mcdostone
+* refactor: clippy pedantic by @Mcdostone
+* build: update java deps by @Mcdostone
+* build(deps): bump clap from 4.5.47 to 4.5.48 by @dependabot[bot]
+* build(deps): bump indexmap from 2.11.3 to 2.11.4 by @dependabot[bot]
+* build(deps): bump serde from 1.0.225 to 1.0.228 by @dependabot[bot]
+* build(deps): bump tempfile from 3.22.0 to 3.23.0 by @dependabot[bot]
+* build(deps): bump actions/attest-build-provenance from 2 to 3 by @dependabot[bot]
+* build(deps-dev): bump esbuild in /crates/wasm-blueprints/js by @dependabot[bot]
+* build(deps): bump actions/setup-java from 4 to 5 by @dependabot[bot]
+* ci: rust 1.90.0, improve flake.nix by @Mcdostone
+* build: update Dockerfile by @Mcdostone
+* chore: Release version v0.0.16 by @Mcdostone
+* chore: Update changelog by @github-actions[bot]
+* chore: Release version v0.0.16 by @Mcdostone
+* ci: update dependencies by @Mcdostone
+* fix: the global configuration is now taken into account when you create a consumer by @Mcdostone
+* ci: disable dependabot for lockfile job by @Mcdostone
+* test nix by @Mcdostone
+* ci: delete cargo.lock for testing by @Mcdostone
+* build(deps-dev): bump esbuild in /crates/wasm-blueprints/js by @dependabot[bot]
+* build(deps): bump insta from 1.43.1 to 1.43.2 by @dependabot[bot]
+* feat: remove Cargo.lock to avoid dependabot PRs by @Mcdostone
+* build(deps): bump actions/setup-node from 4 to 5 by @dependabot[bot]
+* build(deps): bump actions/setup-go from 5 to 6 by @dependabot[bot]
+* chore: Update changelog by @github-actions[bot]
+* chore: Release version v0.0.15 by @Mcdostone
+* feat: highlights the record payload with syntect by @Mcdostone
+* chore: Update changelog by @github-actions[bot]
+* chore: Release version v0.0.14 by @Mcdostone
+* test: add new tests thanks to `cargo mutants` by @Mcdostone
+* build: update dependencies by @Mcdostone
+* ci: make sure the lockfile is up-to-date by @Mcdostone
+* refactor: rename somes variable, update README.md, disable specific CI jobs when the actor is dependabot by @Mcdostone
+* ci: Fix docker builds for wasm blueprints by @Mcdostone
+* docs: typo for the 'size' type by @Mcdostone
+* add cargo config for every crate by @Mcdostone
+* docs: flag RUSTFLAGS is missing in the README.md by @Mcdostone
+* chore: Update changelog by @github-actions[bot]
+* refactor: remove debug instruction by @Mcdostone
+* chore: Release version v0.0.13 by @Mcdostone
+* chore: Update changelog by @github-actions[bot]
+* build: upgrade dependencies by @Mcdostone
+* docs: fix typos by @Mcdostone
+* test: added more details when the createFilter test failed by @Mcdostone
+* feat: new config for the consumer batch size and the timeout by @Mcdostone
+* build: add job to build yozefu with archlinux by @Mcdostone
+* build: dependabot config for docker by @Mcdostone
+* perf: try to improve throughput of read kafka records by @Mcdostone
+* docs: update README.md by @Mcdostone
+* feat: Trying to parse records published in `__consumer_offsets` by @Mcdostone
+* build: enable `tokio_unstable` by @Mcdostone
+* refactor: tracing regarding parsing time by @Mcdostone
+* fix: fix preselected topics when using --topics by @Mcdostone
+* feat: move to tracing by @Mcdostone
+* feat: selected topics are highlighted in the `TopicsComponent` by @Mcdostone
+* feat: generate a json schema for Kafka record. by @Mcdostone
+* refactor: remove unused enum FocusDirection by @Mcdostone
+* docs: add json schema for the configuration file by @Mcdostone
+* build: update deps by @Mcdostone
+* ci: fix the changelog action by @Mcdostone
+* chore: Release version v0.0.12 by @Mcdostone
+* feat: minimum width for the topics component by @Mcdostone
+* docs: update typo in README.md by @Mcdostone
+* docs: update README.md by @Mcdostone
+* chore: Update changelog by @Mcdostone
+* build: rollback to ratatui 0.29.0 by @Mcdostone
+* ci: fix CI about changelog, something went wrong during publishing the crates by @Mcdostone
+* chore: Release version v0.0.11 by @Mcdostone
+* style: remove padding in topics component by @Mcdostone
+* refactor: remove unused enum by @Mcdostone
+* build(deps): bump raven-actions/actionlint from 2.0.0 to 2.0.1 by @dependabot[bot]
+* feat: show how long ago the record was published by @Mcdostone
+* test: tests that wasm filters don't have access to network by @Mcdostone
+* feat: update to rust 1.88.0 by @Mcdostone
+* feat: disable IO interactions for wasm filters by @Mcdostone
+* style: design improvements based on https://github.com/ratatui/ratatui-website/pull/868 by @Mcdostone
+* build: update dependencies by @Mcdostone
+* ci: remove hardcoded URLs for `cargo-semver-checks` by @Mcdostone
+* ci: enable some clippy lints by @Mcdostone
+* refactor: format, removed unused deps by @Mcdostone
+* docs: fix URLs by @Mcdostone
+* chore: Update changelog by @github-actions[bot]
+* ci: rollback temporary change in github action by @Mcdostone
+* fix: rollback regarding commit and branch by @Mcdostone
+* build: update deps by @Mcdostone
+* docs: add link to https://docs.rs by @Mcdostone
+* chore: Release version v0.0.10 by @Mcdostone
+* feat: improve the `--version` output by @Mcdostone
+* build: simplify cross config by @Mcdostone
+* style: the default theme on windows is dark by @Mcdostone
+* docs: improve try-it.sh by @Mcdostone
+* ci: improve CI, some errors were not caught by @Mcdostone
+* build: try to fix static rdkakfa by @Mcdostone
+* style: update themes file by @Mcdostone
+* test: fix tests and semver-checks by @Mcdostone
+* build: fix docker build, `libclang-dev` was missing by @Mcdostone
+* fix: log error when the search query is invalid by @Mcdostone
+* build: update dependencies by @Mcdostone
+* docs: update demo gif by @Mcdostone
+* feat: equal could be '==' or '=' by @Mcdostone
+* docs: create vhs demo by @Mcdostone
+* docs: add conduktor for tests by @Mcdostone
+
+**Full Changelog**: https://github.com/ShabbirHasan1/yozefu/compare/v0.0.9...v0.0.17
+
+## What's Changed in 0.0.17
 * Develop by @Mcdostone in [#131](https://github.com/MAIF/yozefu/pull/131)
 * refactor: clippy pedantic by @Mcdostone
 * build: update java deps by @Mcdostone
